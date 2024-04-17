@@ -1,0 +1,6 @@
+@import "../../node_modules/tailwindcss/base";
+@import "../../node_modules/tailwindcss/components";
+@import "../../node_modules/tailwindcss/utilities.css";
+
+ /* npx tailwindcss -i ./src/styles/index.css -o ./src/styles/output.css --watch */
+

@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { ACCESS_TOKEN, REFRESH_TOKEN } from "../constants";
 import "../styles/Form.css"
 import LoadingIndicator from "./LoginIndicator";
+import MenuItems from "./Navbar";
+import "../styles/index.css"
 
 
 function Form({ route, method }) {
@@ -35,6 +37,9 @@ function Form({ route, method }) {
     };
 
     return (
+        <div>
+        
+
         <form onSubmit={handleSubmit} className="form-container">
             <h1>{name}</h1>
             <input
@@ -57,6 +62,7 @@ function Form({ route, method }) {
                 {name}
             </button>
         </form>
+        </div>
     );
 }
 
